@@ -1,0 +1,14 @@
+{
+  "name": "cleaning-dilution-calculator",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Calculate concentrate and water volumes for a chosen mix ratio and batch size.",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check app.js && node --check logic.js && node --check config.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
